@@ -1,0 +1,20 @@
+Sections:
+News/Home, About/Biography, Shows, Gallery, Music, Contact
+
+Social Media:
+Facebook, Twitter, Bandcamp
+
+Thistle Logo Colours:
+Dark Green: #435127
+Light Green: #9AB383
+Purple: #573E5B
+
+fonts:
+nav: Lora 700
+content: Montserrat', sans-serif
+
+
+MOBILE:
+
+$50 for version1.0, $50 more for version2.0
+

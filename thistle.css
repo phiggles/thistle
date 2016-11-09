@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+body {
+	background: #435127;
+}
+header {
+	display:block;
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+.logo {
+	padding: 45px 0 0px 0;
+}
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	text-align: center;
+	background-color: #435127;
+}
+.nav li {
+	display: inline-block;
+	margin: 0 20px;
+	font: 36px Lora, serif;
+}
+.nav li:last-child {
+	margin-right: 0;
+}
+.nav a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.nav a:hover {
+	color: #9AB383;
+	text-decoration: underline;
+}
+	
+/*
+  ========================================
+  ABOUT
+  ========================================
+*/
+
+div.coverimg {
+	position: relative;
+	background-image: url('img/thistle2.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 960px;
+	min-height: 1365px;
+  }
+p.textblock {
+	position: absolute;
+	top: 130px;
+	left: 345px;
+	width: 960px;
+	word-wrap: break-word;
+	text-indent: 50px;
+	font: bold 16px Montserrat, sans-serif;
+	padding: 10px;
+	background-color: #9AB383;
+	border: 1px solid black;
+	opacity: 0.75;
+	line-height: 1.5;
+	filter: alpha(opacity=75); /* For IE8 and earlier */	
+}
+
+h1.textblock {
+	font: bold 36px Pacifico, cursive;
+	text-align: center;
+	line-height: 50px;
+	padding: 20px;
+}
+
+/*
+  ========================================
+  FOOTER
+  ========================================
+*/
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 99;
+	text-align: center;
+	background-color: #435127;
+	clear: both;
+}
+.footer li {
+	display: inline-block;
+	margin: 0 50px;
+	font: bold 36px Lora, serif;
+}
+.footer li:lastchild {
+	margin-right: 0;
+}
+.footer li.twitter {
+	background:url("img/Twitter.png") 50% 50% no-repeat no-repeat;
+    padding-left: 300px;
+	border: 1;
+}
+.footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+	
