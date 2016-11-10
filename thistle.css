@@ -101,6 +101,7 @@ header {
 */
 
 div.coverimg {
+	margin: 0 0 0 -150px;
 	position: relative;
 	background-image: url('img/thistle2.jpg');
 	background-position: center center;
@@ -112,7 +113,7 @@ div.coverimg {
 p.textblock {
 	position: absolute;
 	top: 130px;
-	left: 345px;
+	left: 495px;
 	width: 960px;
 	word-wrap: break-word;
 	text-indent: 50px;
@@ -126,6 +127,7 @@ p.textblock {
 }
 
 h1.textblock {
+	margin: 0 0 0 480px;
 	font: bold 36px Pacifico, cursive;
 	text-align: center;
 	line-height: 50px;
@@ -138,7 +140,7 @@ h1.textblock {
   ========================================
 */
 
-.footer {
+#footer {
 	position: fixed;
 	bottom: 0px;
 	margin: 0 auto;
@@ -148,20 +150,28 @@ h1.textblock {
 	background-color: #435127;
 	clear: both;
 }
-.footer li {
+#footer li {
 	display: inline-block;
 	margin: 0 50px;
-	font: bold 36px Lora, serif;
+	padding-left: 36px;
+	font: bold 26px Lora, serif;
 }
-.footer li:lastchild {
+#footer li:lastchild {
 	margin-right: 0;
 }
-.footer li.twitter {
-	background:url("img/Twitter.png") 50% 50% no-repeat no-repeat;
-    padding-left: 300px;
-	border: 1;
+#footer #twitter {
+	background: url("img/Twitter.png") no-repeat left center;
+	background-size: 32px;
 }
-.footer a {
+#footer #facebook {
+	background: url("img/Facebook.png") no-repeat left center;
+	background-size: 32px;
+}
+#footer #youtube {
+	background: url("img/Youtube.png") no-repeat left center;
+	background-size: 32px;
+}
+#footer a {
 	color: #fff;
 	text-decoration: none;
 }
